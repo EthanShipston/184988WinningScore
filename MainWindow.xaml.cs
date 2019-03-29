@@ -1,4 +1,8 @@
-﻿using System;
+/*Ethan Shipston
+ * 29/3/2019
+ * A program which calculates which basketball team won based on number of shots given.
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,6 +29,9 @@ namespace _184988WinningScore
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Logic.
+        /// </summary>
         private void btnCalculate_Click(object sender, RoutedEventArgs e)
         {
             int[] scores = new int[6];
